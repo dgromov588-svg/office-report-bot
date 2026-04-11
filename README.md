@@ -3,7 +3,7 @@
 Telegram-бот для офисных отчётов с записью в Google Sheets.
 
 ## Что лежит в репозитории
-- `office-report-bot-package.zip` — полная рабочая сборка проекта
+- `office-report-bot-v3-package.zip` — полная рабочая сборка проекта
 - `.env.example` — шаблон переменных окружения
 - `requirements.txt` — зависимости
 - `.gitignore` — защита от случайного коммита секретов и служебных файлов
@@ -37,7 +37,7 @@ python bot.py
 ```
 
 ## Шаги после скачивания сборки
-1. Распаковать `office-report-bot-package.zip`
+1. Распаковать `office-report-bot-v3-package.zip`
 2. Импортировать `office_reports_template.xlsx` в Google Sheets
 3. Создать Telegram-бота через BotFather
 4. Создать service account в Google Cloud и выдать ему доступ к таблице
